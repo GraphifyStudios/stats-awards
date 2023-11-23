@@ -14,13 +14,13 @@ import {
 
 export default function Navbar() {
   return (
-    <nav className="flex items-center justify-between rounded-full px-4 py-3 mb-4 bg-muted">
+    <nav className="mb-4 flex items-center justify-between rounded-full bg-muted px-4 py-3">
       <Link
         href="/"
-        className="hover:opacity-50 transition-all flex items-center gap-1"
+        className="flex items-center gap-1 transition-all hover:opacity-50"
       >
         <Image src="/logo.png" alt="Stats Awards Logo" width={28} height={28} />
-        <p className="font-medium text-lg bg-gradient-to-b from-[#FAE965] to-[#F4B446] inline-block text-transparent bg-clip-text">
+        <p className="inline-block bg-gradient-to-b from-[#FAE965] to-[#F4B446] bg-clip-text text-lg font-medium text-transparent">
           Stats Awards
         </p>
       </Link>
@@ -37,7 +37,7 @@ function ThemeToggle() {
   return (
     <DropdownMenu>
       <DropdownMenuTrigger asChild>
-        <Button variant="ghost" size="icon" className="w-6 h-6">
+        <Button variant="ghost" size="icon" className="h-6 w-6">
           <Sun className="h-6 w-6 rotate-0 scale-100 transition-all dark:-rotate-90 dark:scale-0" />
           <Moon className="absolute h-6 w-6 rotate-90 scale-0 transition-all dark:rotate-0 dark:scale-100" />
           <span className="sr-only">Toggle theme</span>
