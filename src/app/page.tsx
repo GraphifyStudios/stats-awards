@@ -17,7 +17,7 @@ export default function Home() {
           our community.
         </p>
       </div>
-      <div className="flex items-center gap-3">
+      <div className="flex flex-col items-center gap-3 md:flex-row">
         <div className="relative">
           <div className="absolute -inset-2 rounded-lg bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-[#FAE965] to-[#F4B446] opacity-60 blur-2xl" />
           <a
