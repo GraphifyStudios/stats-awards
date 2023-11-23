@@ -19,10 +19,10 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className={cn("p-4", inter.className)}>
+      <body className={cn("flex h-screen flex-col p-4", inter.className)}>
         <Providers>
           <Navbar />
-          <main>{children}</main>
+          <main className="grow">{children}</main>
         </Providers>
       </body>
     </html>

@@ -24,7 +24,7 @@ export default function Navbar() {
           Stats Awards
         </p>
       </Link>
-      <div>
+      <div className="flex items-center">
         <ThemeToggle />
       </div>
     </nav>
