@@ -1,4 +1,5 @@
 import { buttonVariants } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 import { BsDiscord } from "react-icons/bs";
 
 export default function Home() {
@@ -21,15 +22,15 @@ export default function Home() {
         <div className="relative">
           <div className="absolute -inset-2 rounded-lg bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-[#FAE965] to-[#F4B446] opacity-60 blur-2xl" />
           <a
-            href="https://youtube.com/@StatsAwards?sub_confirmation=1"
+            href="/survey"
             target="_blank"
             className={buttonVariants({
               variant: "brand",
               size: "lg",
-              className: "relative",
+              className: "relative flex items-center gap-2",
             })}
           >
-            Subscribe
+            Fill in the survey <ArrowRight className="animate-bounce-x" />
           </a>
         </div>
         <a
