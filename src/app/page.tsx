@@ -22,7 +22,7 @@ export default function Home() {
         <div className="relative">
           <div className="absolute -inset-2 rounded-lg bg-[conic-gradient(at_top_right,_var(--tw-gradient-stops))] from-[#FAE965] to-[#F4B446] opacity-60 blur-2xl" />
           <a
-            href="/survey"
+            href="https://youtube.com/@graphifystatistics"
             target="_blank"
             className={buttonVariants({
               variant: "brand",
@@ -30,7 +30,7 @@ export default function Home() {
               className: "relative flex items-center gap-2",
             })}
           >
-            Fill in the survey <ArrowRight className="animate-bounce-x" />
+            Subscribe
           </a>
         </div>
         <a
