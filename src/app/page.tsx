@@ -2,6 +2,7 @@ import Countdown from "@/components/countdown";
 import { buttonVariants } from "@/components/ui/button";
 import Image from "next/image";
 import { BsDiscord } from "react-icons/bs";
+import { ArrowRight } from "lucide-react";
 
 export default function Home() {
   return (
@@ -28,15 +29,15 @@ export default function Home() {
       <Countdown />
       <div className="flex flex-col items-center gap-3 md:flex-row">
         <a
-          href="https://youtube.com/@graphifystatistics"
+          href="https://youtube.com/watch?v=GqOGYnPFA_k"
           target="_blank"
           className={buttonVariants({
             variant: "brand",
             size: "lg",
-            className: "relative flex items-center gap-2 drop-shadow-lg",
+            className: "flex items-center gap-2 drop-shadow-lg",
           })}
         >
-          Subscribe
+          Watch live <ArrowRight className="animate-bounce-x" />
         </a>
         <a
           href="https://discord.com/invite/NapeGNM6p6"
