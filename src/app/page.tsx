@@ -1,5 +1,4 @@
 import Countdown from "@/components/countdown";
-import Date from "@/components/date";
 import { buttonVariants } from "@/components/ui/button";
 import Image from "next/image";
 import { BsDiscord } from "react-icons/bs";
@@ -23,9 +22,7 @@ export default function Home() {
             height={16}
             className="rounded-full"
           />
-          <p className="text-xs font-semibold">
-            <Date />
-          </p>
+          <p className="text-xs font-semibold">February 2nd 8PM EST </p>
         </div>
       </div>
       <Countdown />
