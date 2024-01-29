@@ -36,21 +36,21 @@ export default function Countdown() {
         <p className="text-8xl font-bold">{days.toString().padStart(2, "0")}</p>
         <p className="text-sm">DAYS</p>
       </div>
-      <p className="text-4xl">:</p>
+      <p className="-mt-4 text-4xl">:</p>
       <div className="flex flex-col items-center justify-center gap-1">
         <p className="text-8xl font-bold">
           {hours.toString().padStart(2, "0")}
         </p>
         <p className="text-sm">HOURS</p>
       </div>
-      <p className="text-4xl">:</p>
+      <p className="-mt-4 text-4xl">:</p>
       <div className="flexflex-col items-center justify-center gap-1">
         <p className="text-8xl font-bold">
           {minutes.toString().padStart(2, "0")}
         </p>
         <p className="text-sm">MINUTES</p>
       </div>
-      <p className="text-4xl">:</p>
+      <p className="-mt-4 text-4xl">:</p>
       <div className="flex flex-col items-center justify-center gap-1">
         <p className="text-8xl font-bold">
           {seconds.toString().padStart(2, "0")}
